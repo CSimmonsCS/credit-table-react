@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#students {
+  margin: auto;
+}
+
+.top-priority {
+  background-color: rgba(256, 0, 0);
+}
+
+.upper-priority {
+  background-color: rgba(256, 64, 0, 0.7);
+}
+
+.less-priority {
+  background-color: rgba(256, 128, 0, 0.7);
+}
+
+.lesser-priority {
+  background-color: rgba(256, 192, 0, 0.7);
+}
+
+.least-priority {
+  background-color: rgba(0, 128, 0, 0.7);
+}
+
+.plates {
+  display: block;
+}
+
+.top-priority-plate {
+  border-color: rgba(256, 0, 0);
+  border-style: outset;
+  border-width: 5px;
+}
+
+.upper-priority-plate {
+  border-color: rgba(256, 64, 0, 0.7);
+}
+
+.less-priority-plate {
+  border-color: rgba(256, 128, 0, 0.7);
+}
+
+.lesser-priority-plate {
+  border-color: rgba(256, 192, 0, 0.7);
+}
+
+.least-priority-plate {
+  border-color: rgba(0, 128, 0, 0.7);
+}
+
+.card--front {
+  font: 16px/1.5 "Helvetica Neue", Helvetica, sans-serif;
+  position: relative;
+  display: block;
+  vertical-align: middle;
+  width: 425px;
+  height: 270px;
+  text-align: left;
+  padding: 30px;
+  margin: 25px auto;
+  color: #fff;
+  border-radius: 20px;
+  border-width: 10px;
+  border-style: outset;
+  box-sizing: border-box;
+
+  background: rgb(181, 189, 200); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(181, 189, 200, 1) 0%,
+    rgba(130, 140, 149, 1) 36%,
+    rgba(40, 52, 59, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(181, 189, 200, 1) 0%,
+    rgba(130, 140, 149, 1) 36%,
+    rgba(40, 52, 59, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(181, 189, 200, 1) 0%,
+    rgba(130, 140, 149, 1) 36%,
+    rgba(40, 52, 59, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
+}
+
+.card--number {
+  font-size: 30px;
+  padding: 60px 0 15px;
+  text-align: center;
+}
+
+.card--exp {
+  font-size: 14px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.card--name {
+  text-align: left;
+}
+
+.card-and-plate {
+  margin: auto;
+}
+
+.wrapper {
+}
+
+.hide-info {
+  display: none;
+}
+
+.show-info {
+}
